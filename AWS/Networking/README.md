@@ -15,3 +15,23 @@
 - auto negotiation of port must be disabled
 - Customer router must support BGP
 - BFD (Bidirectional forwarding detection) must be enabled
+
+#### Direct connect connection types
+
+1. Dedicated connection
+   - Owned by customers
+   - Provide bandwidth of 1,10,100 GBPS
+   - One dedicated connection = 50 VIF
+2. Hosted connection
+   - 50,100,200,300,500 MBPS and 1,10,100 GBPS
+   - Owned by direct connect partners
+   - One hosted connection = 1 VIF
+
+
+Terms to learn:
+
+1. [TX/RX](https://community.ui.com/questions/What-is-the-TX-RX-Rate/46fe7f5d-a3b2-4842-bc98-58708729dc79)
+2. [Autonomous systems](https://www.cloudflare.com/learning/network-layer/what-is-an-autonomous-system/)
+3. []
+
+
